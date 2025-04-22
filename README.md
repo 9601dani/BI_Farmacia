@@ -87,30 +87,31 @@ Se propuso una arquitectura de Business Intelligence basada en **MariaDB** y her
 ---
 
 ## Estructura del Repositorio
-proyecto_BI_farmacia
+proyecto_BI_farmacia/
 │
-├── #4_proyecto_BI_farmacia/
-│   ├── PowerBI_FarmaciaBI.pbix
-│   ├── BI_General_Arquitecture.jpg
-│   ├── #4_proyecto_BI.docx
-│   ├── DASHBOARDS_FARMACIA_BI.pdf
+├── farmacia_bi/                           # Carpeta principal del proyecto (renombrada para limpieza)
+│   ├── PowerBI_FarmaciaBI.pbix           # Reporte Power BI
+│   ├── BI_General_Arquitecture.jpg       # Arquitectura general de BI
+│   ├── Proyecto_BI.docx                  # Documento principal del proyecto
+│   ├── DASHBOARDS_FARMACIA_BI.pdf        # Dashboards exportados en PDF
 │
-│   ├── Scripts/
+│   ├── Scripts/                          # Scripts SQL utilizados en cada fase
 │   │   ├── script_farmacia_bi.sql
 │   │   ├── ods_reports_farmacia.sql
 │   │   └── construccion_script_modelo.sql
 │
-│   ├── Imagenes/
+│   ├── Imagenes/                         # Diagramas y visualizaciones del proyecto
 │   │   ├── farmacia_BI_DER.png
 │   │   └── construccion_bi.jpg
 │
-│   ├── DATA/
+│   ├── DATA/                             # Datos ficticios para alimentar dashboards
 │   │   ├── data 1.xlsx
 │   │   ├── data 2.xlsx
 │   │   ├── data 3.xlsx
 │   │   ├── data 4.xlsx
 │   │   ├── data 5.xlsx
-│   │   └── Relaciones_PowerBI.png
+│   │   └── Relaciones_PowerBI.png        # Modelo relacional en Power BI
+
 
 
 ---
@@ -132,5 +133,5 @@ proyecto_BI_farmacia
 
 ## Autor
 
-** Erick Morales**  
+** Erick Morales **  
 Científico de Datos | Arquitecto BI  
